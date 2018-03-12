@@ -122,7 +122,7 @@
         if ($rentableProduct){
             $dates = get_dates();
             ?>
-            <?php _e('<h3>Geselecteerde datums </h3> <p><b>Van </b>', 'rentalshop'); echo $dates['from_date']; _e('<b> tot </b>', 'rentalshop'); echo $dates['to_date'];?></p>
+            <?php _e('<h3>Geselecteerde datums </h3> <p class="rentman-rental-period"><b>Van </b>', 'rentalshop'); echo $dates['from_date']; _e('<b> tot </b>', 'rentalshop'); echo $dates['to_date'];?></p>
             <?php
         }
     }
